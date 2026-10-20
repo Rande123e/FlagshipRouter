@@ -16,7 +16,8 @@
   "models": {
     "_comment": "Public model renames. Clients list and call `id` (or `name`); the router calls `target` (provider-alias/model) behind the scenes and reports `id` back in every response. hideTarget keeps the upstream model out of /v1/models and the dashboard catalog.",
     "renames": [
-      { "id": "gpt-6-astra", "name": "GPT-6 Astra", "target": "oc/big-pickle", "hideTarget": true }
+      { "id": "gpt-6-astra", "name": "GPT-6 Astra", "target": "oc/big-pickle", "hideTarget": true },
+      { "id": "code-5.5", "name": "Code 5.5", "target": "oc/big-pickle", "hideTarget": true }
     ]
   },
 
